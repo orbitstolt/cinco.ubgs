@@ -1,0 +1,9 @@
+window.loadedUrls = true;
+
+function getBuildUrl() {
+	return "https://justplay-cdn.playtika.com/justbuild/NewCI/1v1/Prod/407/08b77161e24349449237d7da551a144c";
+}
+
+function getGameLoaderUrl() {
+	return getBuildUrl() + "/WebGL.loader.js";
+}
